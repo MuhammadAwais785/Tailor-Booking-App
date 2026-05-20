@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
           onSurface: const Color(0xFF1E293B),
         ),
         scaffoldBackgroundColor: const Color(0xFFF8FAFC),
-        cardTheme: CardThemeData(
+        cardTheme: CardTheme(
           elevation: 6,
           shadowColor: const Color(0xFF5B5FFF).withOpacity(0.15),
           shape: RoundedRectangleBorder(

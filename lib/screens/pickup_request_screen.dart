@@ -183,7 +183,7 @@ class _PickupRequestScreenState extends State<PickupRequestScreen> {
                         onChanged: widget.relatedBooking != null
                             ? (value) => setState(() => _requestType = value!)
                             : null,
-                        enabled: widget.relatedBooking != null,
+                        //enabled: widget.relatedBooking != null,
                       ),
                     ],
                   ),
